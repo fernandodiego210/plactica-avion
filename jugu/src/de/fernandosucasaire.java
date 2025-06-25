@@ -1,11 +1,5 @@
 package de;
 
-public class fernandosucasaire {
-	private int naveX = 200, naveY = 300;  // Posición de la nave
-	private ArrayList<Rectangle> balas = new ArrayList<>();    // Lista de balas
-	private ArrayList<Rectangle> enemigos = new ArrayList<>(); // Lista de enemigos
-	private boolean izquierda, derecha, arriba, abajo, disparo; // Controles
-	private int puntos = 0; // Puntaje
 //Crear Enemigos Iniciales:
 	for (int i = 0; i < 5; i++) {
 	    enemigos.add(new Rectangle(i * 70 + 20, 50, 30, 30)); // 5 enemigos en fila
