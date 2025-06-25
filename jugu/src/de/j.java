@@ -6,9 +6,7 @@ import java.awt.event.*;
 import java.util.ArrayList;
 
 public class j extends JPanel implements ActionListener, KeyListener {
-    /**
-	 * 
-	 */
+ 
 	private static final long serialVersionUID = 1L;
 	private int naveX = 200;
     private int naveY = 300;
