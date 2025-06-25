@@ -137,7 +137,7 @@ public class g extends JPanel implements ActionListener, KeyListener {
     }
     
     public static void main(String[] args) {
-        JFrame ventana = new JFrame("Nave vs Enemigos");  // Crear ventana
+        JFrame ventana = new JFrame("iran vs E.E.U.U");  // Crear ventana
         g juego = new g();                               // Crear juego
         
         ventana.add(juego);                              // Agregar juego a ventana
